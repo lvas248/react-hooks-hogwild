@@ -140,7 +140,31 @@ ul {
   clear: both;
 }
 
+body .pigImg{
+  width: 400px;
+  height: 400px;
+}
+/* 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+#filter, #sort{
+  margin: auto;
+}
 
+#filterSort{
+  display: flex;
+  align-content: center; /* figure out how ot align*/
+  margin: 25px auto 25px auto;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
